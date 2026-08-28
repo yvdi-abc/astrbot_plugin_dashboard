@@ -1,0 +1,9 @@
+name: astrbot_plugin_dashboard
+display_name: Bot 面板
+desc: QQ 内快捷查看 bot 状态与命令菜单。提供 /菜单（分类展示全部命令）和 /状态（bot 健康汇总：模型、人设、插件、DSH、系统资源）
+short_desc: /菜单 命令速查 + /状态 bot 健康汇总
+version: v1.0.0
+author: yvdi-abc
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.16,<5"
