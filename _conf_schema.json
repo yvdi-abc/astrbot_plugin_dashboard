@@ -1,0 +1,18 @@
+{
+  "show_system": {
+    "description": "/状态 是否显示系统资源（内存/磁盘/负载）",
+    "type": "bool",
+    "default": true
+  },
+  "show_dsh": {
+    "description": "/状态 是否显示 DSH 桥接信息",
+    "type": "bool",
+    "default": true
+  },
+  "dsh_base_url": {
+    "description": "DSH 服务地址（用于 /状态 显示会话数）",
+    "type": "string",
+    "default": "http://127.0.0.1:3080",
+    "hint": "留空则不查询 DSH"
+  }
+}
